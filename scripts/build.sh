@@ -21,7 +21,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-yarn && yarn build
+pnpm install && pnpm run build
 
 if [ $? -ne 0 ]; then
   echo "Error: Failed to build in directory $DIR."
