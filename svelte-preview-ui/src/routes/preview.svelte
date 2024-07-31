@@ -1,7 +1,7 @@
 <script>
 
   import { Button } from "$lib/components/ui/button";
-  import { Card } from "$lib/components/ui/card";
+  import * as Card from "$lib/components/ui/card";
 </script>
 
 <style>
@@ -13,6 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 2rem;
   }
   .content {
     background: rgba(255, 255, 255, 0.8);
@@ -44,6 +46,19 @@
       </Card.Content>
       <Card.Footer>
         <Button variant="outline">Get Started</Button>
+      </Card.Footer>
+    </Card.Root>
+  </div>
+  <div class="content">
+    <Card.Root>
+      <Card.Header>
+        <Card.Title class="title">Discover More!</Card.Title>
+      </Card.Header>
+      <Card.Content>
+        <p class="description">Explore the cuteness and find more lovely things.</p>
+      </Card.Content>
+      <Card.Footer>
+        <Button variant="outline">Learn More</Button>
       </Card.Footer>
     </Card.Root>
   </div>
