@@ -9,12 +9,12 @@
 
 <main class="flex h-screen">
   <!-- Left side with large image -->
-  <div class="w-1/2 bg-gray-200">
+  <div class="w-2/3 bg-gray-200">
     <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&dpr=2&q=80" alt="Login Image" class="object-cover w-full h-full" />
   </div>
 
   <!-- Right side with login form -->
-  <div class="w-1/2 flex flex-col justify-center items-center p-8">
+  <div class="w-1/3 flex flex-col justify-center items-center p-8 bg-white rounded-l-lg shadow-lg">
     <h1 class="text-3xl font-bold mb-4">Login</h1>
     <form class="w-full max-w-sm">
       <div class="mb-4">
