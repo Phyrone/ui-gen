@@ -4,7 +4,7 @@
   import { Input } from "$lib/components/ui/input";
   import { Label } from "$lib/components/ui/label";
   import { Separator } from "$lib/components/ui/separator";
-  import { Facebook, Twitter, Google } from 'lucide-svelte';
+  import { Github, Twitter, Google } from 'lucide-svelte';
 </script>
 
 <main class="flex h-screen">
@@ -29,8 +29,8 @@
       <Separator class="my-4" />
       <div class="flex justify-center space-x-4">
         <Button variant="outline" class="flex items-center space-x-2">
-          <Facebook />
-          <span>Facebook</span>
+          <Github />
+          <span>Github</span>
         </Button>
         <Button variant="outline" class="flex items-center space-x-2">
           <Twitter />
